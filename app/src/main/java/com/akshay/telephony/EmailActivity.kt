@@ -23,7 +23,7 @@ class EmailActivity : AppCompatActivity() {
             i.putExtra(Intent.EXTRA_SUBJECT,et2.text.toString())
             i.putExtra(Intent.EXTRA_TEXT,et3.text.toString())
           //  i.putExtra(Intent.EXTRA_STREAM,et1.text.toString())
-         //   i.type = "message/rfc822"
+         //   i.type = "message/rfc822"   
             startActivity(i)
         }
     }
